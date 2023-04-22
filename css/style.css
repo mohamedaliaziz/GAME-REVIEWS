@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", cursive;
+}
+header img 
+{
+    max-height: 30vh;
+    
+}
+.navbar{
+    z-index: 1000 !important;
+    top:10px !important;
+}
+nav{
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 75%) ;
+
+}
+a{
+   color:white !important ;
+   transition: all 0.5s ease !important;
+
+}
+a:hover{
+    color:#09c !important ;
+    
+}
+.active{
+    color:#09c !important;
+    
+}
+.cont h3{
+    font-family: 'Nerko One', cursive;
+    font-size:.800rem !important;
+    margin: 0 !important;
+    
+}
+.crd{
+    filter: grayscale(0.7);
+    transition: all   .5s  ease !important ;
+
+}
+.crd:hover{
+    transform: scale(1.05);
+    filter: grayscale(0);
+}
+p{
+    opacity: .6;
+}
+.bt{
+     font-size: 10px !important;
+}
+.loading{
+    z-index: 1000 !important;
+}
+.spinner-border{
+    width:5rem;
+    height:5rem;
+    border-width: .5em !important;
+}
